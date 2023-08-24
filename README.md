@@ -1,7 +1,7 @@
 # Simple-Python-MineSweeper
 This simple project is my first relativily big project and is being used as a learning tool. Input is appreciated
 
-[Latest](https://github.com/NomeGenerico/Simple-Python-MineSweeper/releases/tag/Release)
+[Latest](https://github.com/NomeGenerico/Simple-Python-MineSweeper/releases)
 
 TODO:
 
