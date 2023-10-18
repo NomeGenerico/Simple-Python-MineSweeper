@@ -7,7 +7,6 @@ TODO:
 
 1. Stand alone UI<br>
 2. Better Mine Generation (closer to original)<br>
-3. Simple Dificulties<br>
 
 Done:
 
@@ -16,3 +15,4 @@ Done:
 3. Losing <br>
 4. Custom Dificulty
 5. Winning
+6. Simple Difuculties
