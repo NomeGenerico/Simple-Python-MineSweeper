@@ -59,8 +59,17 @@ def game():
         tam = 20
         dif = 99
     if choice == 4:
-        tam = int(input("Tamanho do tabuleiro: "))
-        dif = int(input("Numero de Minas: "))
+        notValid = True
+        while(notValid):
+            try: 
+            	tam = int(input("Tamanho do tabuleiro: "))
+            	dif = int(input("Numero de Minas: "))
+            	print("Número de minas inválido")
+            	if(dif < tam**2):
+                	notValid = False
+            except:
+            	print("Digite Apenas Numeros")
+
     firstmove = True
     mineboard = Generator.GerarMinas(tam, dif)
     numboard = Generator.MineCounterBoard(mineboard, tam)
