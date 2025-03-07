@@ -200,7 +200,21 @@ def updateRenderBoard(numboard,renderboard,x,y,tam):
 def Numboard(numboard, renderboard, tam):
     i = 1
     j = 1
-    while i < (tam + 1):     
+    while i < (tam + 1):
+        tempTam = tam
+        numSpace = 0
+        tempI = i
+        sizeI = 0
+        while(tempTam != 0):
+            tempTam = tempTam // 10
+            numSpace =  numSpace + 1
+        while(tempI != 0):
+            tempI = (tempI // 10)
+            sizeI = sizeI + 1
+        z = numSpace - sizeI	
+        while(z != 0):
+            print(" ",end ="")
+            z = z - 1
         print(i," | ",end="")
         while j < (tam + 1):
             if renderboard[i][j] == 1:
